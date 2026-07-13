@@ -58,6 +58,16 @@ pip install git+https://github.com/blueqat/blueqatSDK
 |310.|<a href="tutorial/310_shor.ipynb">Shor's algorithm</a>|<a href="tutorial/ja/310_shor.ipynb">日本語</a>|
 |311.|<a href="tutorial/311_four.ipynb">Four Calculations and Modulus</a>|<a href="tutorial/ja/311_four.ipynb">日本語</a>|
 
+3-2. Shor's Algorithm from Scratch (full implementation, work in progress)
+--------------------
+
+A companion series to 310 above, building a working implementation of Shor's algorithm from the ground up, one arithmetic building block at a time. More parts will be added as they're ready.
+
+|No.|Title|日本語|
+|:---|:---|:---|
+|320.|<a href="tutorial/320_shor_scratch_adder.ipynb">Part 1: Quantum Adder</a>|<a href="tutorial/ja/320_shor_scratch_adder.ipynb">日本語</a>|
+|321.|<a href="tutorial/321_shor_scratch_modulo_adder.ipynb">Part 2: Modulo Adder</a>|<a href="tutorial/ja/321_shor_scratch_modulo_adder.ipynb">日本語</a>|
+
 Contributors
 ----------
 <a href="https://github.com/Blueqat/Blueqat-tutorials/graphs/contributors" target="_blank">Contributors</a>
