@@ -8,6 +8,8 @@ pip install git+https://github.com/blueqat/blueqatSDK
 
 English version is available at [README.md](README.md).
 
+破壊的変更や新着情報は [CHANGELOG.ja.md](CHANGELOG.ja.md) をご覧ください。
+
 0-1. 量子コンピュータの基本操作
 --------------------
 
@@ -67,14 +69,6 @@ English version is available at [README.md](README.md).
 |:---|:---|
 |320.|<a href="tutorial/ja/320_shor_scratch_adder.ipynb">第1回: 量子加算器</a>|
 |321.|<a href="tutorial/ja/321_shor_scratch_modulo_adder.ipynb">第2回: 剰余加算器</a>|
-
-Contributors
-----------
-<a href="https://github.com/Blueqat/Blueqat-tutorials/graphs/contributors" target="_blank">Contributors</a>
-
-Discussions
-----------
-<a href="https://github.com/Blueqat/blueqat-tutorials/discussions" target="_blank">Discussions</a>
 
 Licence
 ----------
