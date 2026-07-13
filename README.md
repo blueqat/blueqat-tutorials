@@ -8,6 +8,8 @@ pip install git+https://github.com/blueqat/blueqatSDK
 
 日本語版のチュートリアルは [README.ja.md](README.ja.md) を参照してください。
 
+See [CHANGELOG.md](CHANGELOG.md) for breaking changes and what's new.
+
 0-1. Basic Operation on Quantum Computer
 --------------------
 
@@ -67,14 +69,6 @@ A companion series to 310 above, building a working implementation of Shor's alg
 |:---|:---|:---|
 |320.|<a href="tutorial/320_shor_scratch_adder.ipynb">Part 1: Quantum Adder</a>|<a href="tutorial/ja/320_shor_scratch_adder.ipynb">日本語</a>|
 |321.|<a href="tutorial/321_shor_scratch_modulo_adder.ipynb">Part 2: Modulo Adder</a>|<a href="tutorial/ja/321_shor_scratch_modulo_adder.ipynb">日本語</a>|
-
-Contributors
-----------
-<a href="https://github.com/Blueqat/Blueqat-tutorials/graphs/contributors" target="_blank">Contributors</a>
-
-Discussions
-----------
-<a href="https://github.com/Blueqat/blueqat-tutorials/discussions" target="_blank">Discussions</a>
 
 Licence
 ----------
