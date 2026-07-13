@@ -69,6 +69,7 @@ English version is available at [README.md](README.md).
 |:---|:---|
 |320.|<a href="tutorial/ja/320_shor_scratch_adder.ipynb">第1回: 量子加算器</a>|
 |321.|<a href="tutorial/ja/321_shor_scratch_modulo_adder.ipynb">第2回: 剰余加算器</a>|
+|322.|<a href="tutorial/ja/322_shor_scratch_controlled_multiplier.ipynb">第3回: 制御剰余乗算</a>|
 
 Licence
 ----------
