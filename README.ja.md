@@ -58,6 +58,16 @@ English version is available at [README.md](README.md).
 |310.|<a href="tutorial/ja/310_shor.ipynb">ショアのアルゴリズム</a>|
 |311.|<a href="tutorial/ja/311_four.ipynb">四則演算と剰余</a>|
 
+3-2. ゼロから作るショアのアルゴリズム(本格実装、順次追加中)
+--------------------
+
+上記310の関連シリーズです。ショアのアルゴリズムの実際に動く実装を、算術演算の部品から少しずつ積み上げていきます。準備ができ次第、続きを追加していきます。
+
+|No.|タイトル|
+|:---|:---|
+|320.|<a href="tutorial/ja/320_shor_scratch_adder.ipynb">第1回: 量子加算器</a>|
+|321.|<a href="tutorial/ja/321_shor_scratch_modulo_adder.ipynb">第2回: 剰余加算器</a>|
+
 Contributors
 ----------
 <a href="https://github.com/Blueqat/Blueqat-tutorials/graphs/contributors" target="_blank">Contributors</a>
