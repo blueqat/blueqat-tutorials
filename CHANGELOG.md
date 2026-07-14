@@ -2,6 +2,12 @@
 
 日本語版は [CHANGELOG.ja.md](CHANGELOG.ja.md) を参照してください。
 
+## 2026-07-15 — Default branch renamed, README fixes, new QCNN tutorial
+
+- Renamed the default branch from `master` to `main`.
+- Fixed six README rows (Set Packing, Vertex Cover, Grover Adaptive Search, and the three chemistry notebooks) whose "No." labels were stale leftovers from before those files were renumbered; every row's label now matches its filename.
+- Added `110_qcnn.ipynb`: a Quantum Convolutional Neural Network tutorial, migrated from private customer material and modernized to use blueqatSDK's native PyTorch autograd support (`loss.backward()` end to end, no manual finite-difference gradients needed as the original implementation required on the old SDK). Trains a 4-qubit "quanvolution" filter as the first layer of an MNIST digit classifier (0 vs 1), reaching ~98-99% test accuracy in under two minutes.
+
 ## 2026-07-13 — Migrated to the new blueqatSDK, added Japanese translations
 
 All 37 tutorials now target the current [blueqatSDK](https://github.com/blueqat/blueqatSDK) (PyTorch-native edition), rather than the old PyPI `blueqat` 0.3.x package. If you have old code (from this repo or elsewhere) that stopped working, the breaking changes below are almost certainly why.

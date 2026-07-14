@@ -35,6 +35,7 @@ See [CHANGELOG.md](CHANGELOG.md) for breaking changes and what's new.
 |107.|<a href="tutorial/107_matrix_factorization.ipynb">Matrix Factorization</a>|<a href="tutorial/ja/107_matrix_factorization.ipynb">日本語</a>|
 |108.|<a href="tutorial/108_trafficflow.ipynb">Traffic Flow Optimization on QAOA</a>|<a href="tutorial/ja/108_trafficflow.ipynb">日本語</a>|
 |109.|<a href="tutorial/109_maxcut.ipynb">Maxcut, Exact Cover, Graph Coloring on QAOA</a>|<a href="tutorial/ja/109_maxcut.ipynb">日本語</a>|
+|110.|<a href="tutorial/110_qcnn.ipynb">Quantum Convolutional Neural Network</a>|<a href="tutorial/ja/110_qcnn.ipynb">日本語</a>|
 |313.|<a href="tutorial/313_setpacking.ipynb">Set Packing</a>|<a href="tutorial/ja/313_setpacking.ipynb">日本語</a>|
 |315.|<a href="tutorial/315_vertexcover.ipynb">Vertext Cover</a>|<a href="tutorial/ja/315_vertexcover.ipynb">日本語</a>|
 |316.|<a href="tutorial/316_grover_adaptive_qubo.ipynb">Grover Adaptive Search for QUBO</a>|<a href="tutorial/ja/316_grover_adaptive_qubo.ipynb">日本語</a>|

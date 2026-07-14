@@ -35,6 +35,7 @@ English version is available at [README.md](README.md).
 |107.|<a href="tutorial/ja/107_matrix_factorization.ipynb">行列分解</a>|
 |108.|<a href="tutorial/ja/108_trafficflow.ipynb">QAOAによる交通流最適化</a>|
 |109.|<a href="tutorial/ja/109_maxcut.ipynb">QAOAによるMaxcut、Exact Cover、グラフ彩色</a>|
+|110.|<a href="tutorial/ja/110_qcnn.ipynb">量子畳み込みニューラルネットワーク</a>|
 |313.|<a href="tutorial/ja/313_setpacking.ipynb">集合パッキング問題</a>|
 |315.|<a href="tutorial/ja/315_vertexcover.ipynb">頂点被覆問題</a>|
 |316.|<a href="tutorial/ja/316_grover_adaptive_qubo.ipynb">QUBOに対するグローバー適応探索</a>|
