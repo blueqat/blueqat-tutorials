@@ -37,7 +37,7 @@ English version is available at [README.md](README.md).
 |109.|<a href="tutorial/ja/109_maxcut.ipynb">QAOAによるMaxcut、Exact Cover、グラフ彩色</a>|
 |117.|<a href="tutorial/ja/313_setpacking.ipynb">集合パッキング問題</a>|
 |118.|<a href="tutorial/ja/315_vertexcover.ipynb">頂点被覆問題</a>|
-|119.|<a href="tutorial/ja/323_grover_adaptive_qubo.ipynb">QUBOに対するグローバー適応探索</a>|
+|119.|<a href="tutorial/ja/316_grover_adaptive_qubo.ipynb">QUBOに対するグローバー適応探索</a>|
 |123.|<a href="tutorial/ja/400_chemistry.ipynb">量子化学とVQE</a>|
 |124.|<a href="tutorial/ja/401_homemadeansatz.ipynb">自作Ansatzを用いたVQE</a>|
 |125.|<a href="tutorial/ja/402_excitedstate.ipynb">励起状態の計算</a>|
@@ -70,7 +70,7 @@ English version is available at [README.md](README.md).
 |320.|<a href="tutorial/ja/320_shor_scratch_adder.ipynb">第1回: 量子加算器</a>|
 |321.|<a href="tutorial/ja/321_shor_scratch_modulo_adder.ipynb">第2回: 剰余加算器</a>|
 |322.|<a href="tutorial/ja/322_shor_scratch_controlled_multiplier.ipynb">第3回: 制御剰余乗算</a>|
-|324.|<a href="tutorial/ja/324_shor_scratch_modular_exponentiation.ipynb">第4回: べき剰余</a>|
+|323.|<a href="tutorial/ja/323_shor_scratch_modular_exponentiation.ipynb">第4回: べき剰余</a>|
 
 Licence
 ----------

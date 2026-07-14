@@ -37,7 +37,7 @@ See [CHANGELOG.md](CHANGELOG.md) for breaking changes and what's new.
 |109.|<a href="tutorial/109_maxcut.ipynb">Maxcut, Exact Cover, Graph Coloring on QAOA</a>|<a href="tutorial/ja/109_maxcut.ipynb">日本語</a>|
 |117.|<a href="tutorial/313_setpacking.ipynb">Set Packing</a>|<a href="tutorial/ja/313_setpacking.ipynb">日本語</a>|
 |118.|<a href="tutorial/315_vertexcover.ipynb">Vertext Cover</a>|<a href="tutorial/ja/315_vertexcover.ipynb">日本語</a>|
-|119.|<a href="tutorial/323_grover_adaptive_qubo.ipynb">Grover Adaptive Search for QUBO</a>|<a href="tutorial/ja/323_grover_adaptive_qubo.ipynb">日本語</a>|
+|119.|<a href="tutorial/316_grover_adaptive_qubo.ipynb">Grover Adaptive Search for QUBO</a>|<a href="tutorial/ja/316_grover_adaptive_qubo.ipynb">日本語</a>|
 |123.|<a href="tutorial/400_chemistry.ipynb">Quantum Chemistry and VQE</a>|<a href="tutorial/ja/400_chemistry.ipynb">日本語</a>|
 |124.|<a href="tutorial/401_homemadeansatz.ipynb">VQE with homemade ansatz</a>|<a href="tutorial/ja/401_homemadeansatz.ipynb">日本語</a>|
 |125.|<a href="tutorial/402_excitedstate.ipynb">Excited state calculation</a>|<a href="tutorial/ja/402_excitedstate.ipynb">日本語</a>|
@@ -70,7 +70,7 @@ A companion series to 310 above, building a working implementation of Shor's alg
 |320.|<a href="tutorial/320_shor_scratch_adder.ipynb">Part 1: Quantum Adder</a>|<a href="tutorial/ja/320_shor_scratch_adder.ipynb">日本語</a>|
 |321.|<a href="tutorial/321_shor_scratch_modulo_adder.ipynb">Part 2: Modulo Adder</a>|<a href="tutorial/ja/321_shor_scratch_modulo_adder.ipynb">日本語</a>|
 |322.|<a href="tutorial/322_shor_scratch_controlled_multiplier.ipynb">Part 3: Controlled Modular Multiplication</a>|<a href="tutorial/ja/322_shor_scratch_controlled_multiplier.ipynb">日本語</a>|
-|324.|<a href="tutorial/324_shor_scratch_modular_exponentiation.ipynb">Part 4: Modular Exponentiation</a>|<a href="tutorial/ja/324_shor_scratch_modular_exponentiation.ipynb">日本語</a>|
+|323.|<a href="tutorial/323_shor_scratch_modular_exponentiation.ipynb">Part 4: Modular Exponentiation</a>|<a href="tutorial/ja/323_shor_scratch_modular_exponentiation.ipynb">日本語</a>|
 
 Licence
 ----------
