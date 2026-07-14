@@ -60,10 +60,10 @@ English version is available at [README.md](README.md).
 |310.|<a href="tutorial/ja/310_shor.ipynb">ショアのアルゴリズム</a>|
 |311.|<a href="tutorial/ja/311_four.ipynb">四則演算と剰余</a>|
 
-3-2. ゼロから作るショアのアルゴリズム(本格実装、順次追加中)
+3-2. ゼロから作るショアのアルゴリズム(本格実装)
 --------------------
 
-上記310の関連シリーズです。ショアのアルゴリズムの実際に動く実装を、算術演算の部品から少しずつ積み上げていきます。準備ができ次第、続きを追加していきます。
+上記310の関連シリーズです。ショアのアルゴリズムの実際に動く実装を、算術演算の部品から少しずつ積み上げ、最後まで実行します。
 
 |No.|タイトル|
 |:---|:---|
@@ -71,6 +71,7 @@ English version is available at [README.md](README.md).
 |321.|<a href="tutorial/ja/321_shor_scratch_modulo_adder.ipynb">第2回: 剰余加算器</a>|
 |322.|<a href="tutorial/ja/322_shor_scratch_controlled_multiplier.ipynb">第3回: 制御剰余乗算</a>|
 |323.|<a href="tutorial/ja/323_shor_scratch_modular_exponentiation.ipynb">第4回: べき剰余</a>|
+|324.|<a href="tutorial/ja/324_shor_full_algorithm.ipynb">第5回: 完全なアルゴリズム(位相推定・逆QFT・連分数展開)</a>|
 
 Licence
 ----------
