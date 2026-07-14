@@ -75,4 +75,4 @@ English version is available at [README.md](README.md).
 
 Licence
 ----------
-<a href="https://github.com/Blueqat/blueqat-tutorials/blob/master/LICENSE">Apache Licence 2.0</a>
+<a href="https://github.com/Blueqat/blueqat-tutorials/blob/main/LICENSE">Apache Licence 2.0</a>
