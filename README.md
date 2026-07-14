@@ -75,5 +75,5 @@ A companion series to 310 above, building a working implementation of Shor's alg
 
 Licence
 ----------
-<a href="https://github.com/Blueqat/blueqat-tutorials/blob/master/LICENSE">Apache Licence 2.0</a>
+<a href="https://github.com/Blueqat/blueqat-tutorials/blob/main/LICENSE">Apache Licence 2.0</a>
 
