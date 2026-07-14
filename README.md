@@ -60,10 +60,10 @@ See [CHANGELOG.md](CHANGELOG.md) for breaking changes and what's new.
 |310.|<a href="tutorial/310_shor.ipynb">Shor's algorithm</a>|<a href="tutorial/ja/310_shor.ipynb">日本語</a>|
 |311.|<a href="tutorial/311_four.ipynb">Four Calculations and Modulus</a>|<a href="tutorial/ja/311_four.ipynb">日本語</a>|
 
-3-2. Shor's Algorithm from Scratch (full implementation, work in progress)
+3-2. Shor's Algorithm from Scratch (full implementation)
 --------------------
 
-A companion series to 310 above, building a working implementation of Shor's algorithm from the ground up, one arithmetic building block at a time. More parts will be added as they're ready.
+A companion series to 310 above, building a working implementation of Shor's algorithm from the ground up, one arithmetic building block at a time, and running it end to end.
 
 |No.|Title|日本語|
 |:---|:---|:---|
@@ -71,6 +71,7 @@ A companion series to 310 above, building a working implementation of Shor's alg
 |321.|<a href="tutorial/321_shor_scratch_modulo_adder.ipynb">Part 2: Modulo Adder</a>|<a href="tutorial/ja/321_shor_scratch_modulo_adder.ipynb">日本語</a>|
 |322.|<a href="tutorial/322_shor_scratch_controlled_multiplier.ipynb">Part 3: Controlled Modular Multiplication</a>|<a href="tutorial/ja/322_shor_scratch_controlled_multiplier.ipynb">日本語</a>|
 |323.|<a href="tutorial/323_shor_scratch_modular_exponentiation.ipynb">Part 4: Modular Exponentiation</a>|<a href="tutorial/ja/323_shor_scratch_modular_exponentiation.ipynb">日本語</a>|
+|324.|<a href="tutorial/324_shor_full_algorithm.ipynb">Part 5: The Full Algorithm (Phase Estimation, Inverse QFT, Continued Fractions)</a>|<a href="tutorial/ja/324_shor_full_algorithm.ipynb">日本語</a>|
 
 Licence
 ----------

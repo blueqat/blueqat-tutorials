@@ -4,7 +4,7 @@
 
 ## 2026-07-13 — Migrated to the new blueqatSDK, added Japanese translations
 
-All 36 tutorials now target the current [blueqatSDK](https://github.com/blueqat/blueqatSDK) (PyTorch-native edition), rather than the old PyPI `blueqat` 0.3.x package. If you have old code (from this repo or elsewhere) that stopped working, the breaking changes below are almost certainly why.
+All 37 tutorials now target the current [blueqatSDK](https://github.com/blueqat/blueqatSDK) (PyTorch-native edition), rather than the old PyPI `blueqat` 0.3.x package. If you have old code (from this repo or elsewhere) that stopped working, the breaking changes below are almost certainly why.
 
 ### Breaking changes in blueqatSDK itself
 
@@ -33,5 +33,5 @@ All 36 tutorials now target the current [blueqatSDK](https://github.com/blueqat/
 - All 32 existing tutorials updated for the above and verified to execute end-to-end with zero errors against a real install of the current SDK.
 - Added a full Japanese translation of every tutorial, under `tutorial/ja/`, linked from a new [README.ja.md](README.ja.md).
 - Flattened `tutorial/3_ftqc/` (previously the only tutorial subfolder, with inconsistent internal numbering) into the main `tutorial/` directory, renumbered `300`-`311` to match the scheme the README already implied.
-- Started a new "Shor's Algorithm from Scratch" series (`320`-`323` so far: quantum adder, modulo adder, controlled modular multiplication, modular exponentiation) building a working implementation up from arithmetic primitives, as a companion to the existing theory-focused `310_shor.ipynb`. With modular exponentiation done, the series now covers every quantum building block Shor's algorithm needs — `310_shor.ipynb` already covers the surrounding phase estimation and classical post-processing in detail.
-- Renumbered `323_grover_adaptive_qubo.ipynb` to `316_grover_adaptive_qubo.ipynb` (it had been sitting in the middle of the Shor's-from-scratch series' number range by mistake) and shifted the series' Part 4 from `324` to `323` so the series occupies a contiguous `320`-`323`.
+- Added a "Shor's Algorithm from Scratch" series (`320`-`324`: quantum adder, modulo adder, controlled modular multiplication, modular exponentiation, and finally the full algorithm — Hadamard superposition, inverse QFT, and continued-fraction post-processing run together on this series' own modular-exponentiation circuit), building a working implementation up from arithmetic primitives, as a companion to the existing theory-focused `310_shor.ipynb`. The final part recovers real factors for both `N=6` and, on a GPU, the classic `N=15` example.
+- Renumbered `323_grover_adaptive_qubo.ipynb` to `316_grover_adaptive_qubo.ipynb` (it had been sitting in the middle of the Shor's-from-scratch series' number range by mistake) and shifted the series' Part 4 from `324` to `323` so the series occupies a contiguous `320`-`324`.
