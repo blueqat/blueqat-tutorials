@@ -35,12 +35,12 @@ English version is available at [README.md](README.md).
 |107.|<a href="tutorial/ja/107_matrix_factorization.ipynb">行列分解</a>|
 |108.|<a href="tutorial/ja/108_trafficflow.ipynb">QAOAによる交通流最適化</a>|
 |109.|<a href="tutorial/ja/109_maxcut.ipynb">QAOAによるMaxcut、Exact Cover、グラフ彩色</a>|
-|117.|<a href="tutorial/ja/313_setpacking.ipynb">集合パッキング問題</a>|
-|118.|<a href="tutorial/ja/315_vertexcover.ipynb">頂点被覆問題</a>|
-|119.|<a href="tutorial/ja/316_grover_adaptive_qubo.ipynb">QUBOに対するグローバー適応探索</a>|
-|123.|<a href="tutorial/ja/400_chemistry.ipynb">量子化学とVQE</a>|
-|124.|<a href="tutorial/ja/401_homemadeansatz.ipynb">自作Ansatzを用いたVQE</a>|
-|125.|<a href="tutorial/ja/402_excitedstate.ipynb">励起状態の計算</a>|
+|313.|<a href="tutorial/ja/313_setpacking.ipynb">集合パッキング問題</a>|
+|315.|<a href="tutorial/ja/315_vertexcover.ipynb">頂点被覆問題</a>|
+|316.|<a href="tutorial/ja/316_grover_adaptive_qubo.ipynb">QUBOに対するグローバー適応探索</a>|
+|400.|<a href="tutorial/ja/400_chemistry.ipynb">量子化学とVQE</a>|
+|401.|<a href="tutorial/ja/401_homemadeansatz.ipynb">自作Ansatzを用いたVQE</a>|
+|402.|<a href="tutorial/ja/402_excitedstate.ipynb">励起状態の計算</a>|
 
 3-1. FTQCアルゴリズム
 --------------------
