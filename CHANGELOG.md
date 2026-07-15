@@ -2,11 +2,20 @@
 
 日本語版は [CHANGELOG.ja.md](CHANGELOG.ja.md) を参照してください。
 
-## 2026-07-15 — Default branch renamed, README fixes, new QCNN tutorial
+## 2026-07-15 — Default branch renamed, README fixes, new QCNN tutorial, full renumbering
 
 - Renamed the default branch from `master` to `main`.
 - Fixed six README rows (Set Packing, Vertex Cover, Grover Adaptive Search, and the three chemistry notebooks) whose "No." labels were stale leftovers from before those files were renumbered; every row's label now matches its filename.
 - Added `110_qcnn.ipynb`: a Quantum Convolutional Neural Network tutorial, migrated from private customer material and modernized to use blueqatSDK's native PyTorch autograd support (`loss.backward()` end to end, no manual finite-difference gradients needed as the original implementation required on the old SDK). Trains a 4-qubit "quanvolution" filter as the first layer of an MNIST digit classifier (0 vs 1), reaching ~98-99% test accuracy in under two minutes.
+- **Renumbered and reorganized the whole tutorial set into six clearly-scoped categories** (breaking change for any bookmarked links — every affected file moved):
+  - `0` Basic Operation on Quantum Computer (`001`-`004`, unchanged)
+  - `1` Machine Learning Algorithms (`100`-`103`: hybrid ML, QCBM, TTN/MPS, QCNN)
+  - `2` Optimization Algorithms — QAOA, VQE, and QUBO/Grover-based methods, previously scattered across `100`s and `313`/`315`/`316` (`200`-`209`)
+  - `3` FTQC Algorithms (`300`-`310`; Shor's theory notebook moved out to category 4, `311_four` shifted down to fill the gap)
+  - `4` Shor's Algorithm — the theory notebook plus the from-scratch series, now contiguous and no longer split across categories (`400`-`405`)
+  - `5` Quantum Chemistry (`500`-`502`, previously `400`-`402`)
+  
+  Section headings were also simplified (e.g. `0-1.` → `0.`) now that each top-level number maps to exactly one category.
 
 ## 2026-07-13 — Migrated to the new blueqatSDK, added Japanese translations
 
