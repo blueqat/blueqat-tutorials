@@ -10,7 +10,7 @@ pip install git+https://github.com/blueqat/blueqatSDK
 
 See [CHANGELOG.md](CHANGELOG.md) for breaking changes and what's new.
 
-0-1. Basic Operation on Quantum Computer
+0. Basic Operation on Quantum Computer
 --------------------
 
 |No.|Title|日本語|
@@ -20,30 +20,33 @@ See [CHANGELOG.md](CHANGELOG.md) for breaking changes and what's new.
 |003.|<a href="tutorial/003_cloud.ipynb">Connection to the cloud</a>|<a href="tutorial/ja/003_cloud.ipynb">日本語</a>|
 |004.|<a href="tutorial/004_backend.ipynb">Backend</a>|<a href="tutorial/ja/004_backend.ipynb">日本語</a>|
 
-1-1. Variational and Machine Learning Algorithms
+1. Machine Learning Algorithms
 --------------------
 
 |No.|Title|日本語|
 |:---|:---|:---|
-|100.|<a href="tutorial/100_vqe.ipynb">Variational Quantum Eigensolver VQE</a>|<a href="tutorial/ja/100_vqe.ipynb">日本語</a>|
-|101.|<a href="tutorial/101_qaoa.ipynb">Quantum Approximate Optimization Algorithm QAOA</a>|<a href="tutorial/ja/101_qaoa.ipynb">日本語</a>|
-|102.|<a href="tutorial/102_quantum_classical_hybrid.ipynb">Quantum Classical Hybrid Machine Learning</a>|<a href="tutorial/ja/102_quantum_classical_hybrid.ipynb">日本語</a>|
-|103.|<a href="tutorial/103_qcbm.ipynb">Quantum Circuit Born Machine</a>|<a href="tutorial/ja/103_qcbm.ipynb">日本語</a>|
-|104.|<a href="tutorial/104_ttn_mps.ipynb">Tree Tensor Network and Matrix Product State</a>|<a href="tutorial/ja/104_ttn_mps.ipynb">日本語</a>|
-|105.|<a href="tutorial/105_clustering.ipynb">Clustering on QAOA</a>|<a href="tutorial/ja/105_clustering.ipynb">日本語</a>|
-|106.|<a href="tutorial/106_linear_regression.ipynb">Linear Regression on QAOA</a>|<a href="tutorial/ja/106_linear_regression.ipynb">日本語</a>|
-|107.|<a href="tutorial/107_matrix_factorization.ipynb">Matrix Factorization</a>|<a href="tutorial/ja/107_matrix_factorization.ipynb">日本語</a>|
-|108.|<a href="tutorial/108_trafficflow.ipynb">Traffic Flow Optimization on QAOA</a>|<a href="tutorial/ja/108_trafficflow.ipynb">日本語</a>|
-|109.|<a href="tutorial/109_maxcut.ipynb">Maxcut, Exact Cover, Graph Coloring on QAOA</a>|<a href="tutorial/ja/109_maxcut.ipynb">日本語</a>|
-|110.|<a href="tutorial/110_qcnn.ipynb">Quantum Convolutional Neural Network</a>|<a href="tutorial/ja/110_qcnn.ipynb">日本語</a>|
-|313.|<a href="tutorial/313_setpacking.ipynb">Set Packing</a>|<a href="tutorial/ja/313_setpacking.ipynb">日本語</a>|
-|315.|<a href="tutorial/315_vertexcover.ipynb">Vertext Cover</a>|<a href="tutorial/ja/315_vertexcover.ipynb">日本語</a>|
-|316.|<a href="tutorial/316_grover_adaptive_qubo.ipynb">Grover Adaptive Search for QUBO</a>|<a href="tutorial/ja/316_grover_adaptive_qubo.ipynb">日本語</a>|
-|400.|<a href="tutorial/400_chemistry.ipynb">Quantum Chemistry and VQE</a>|<a href="tutorial/ja/400_chemistry.ipynb">日本語</a>|
-|401.|<a href="tutorial/401_homemadeansatz.ipynb">VQE with homemade ansatz</a>|<a href="tutorial/ja/401_homemadeansatz.ipynb">日本語</a>|
-|402.|<a href="tutorial/402_excitedstate.ipynb">Excited state calculation</a>|<a href="tutorial/ja/402_excitedstate.ipynb">日本語</a>|
+|100.|<a href="tutorial/100_quantum_classical_hybrid.ipynb">Quantum Classical Hybrid Machine Learning</a>|<a href="tutorial/ja/100_quantum_classical_hybrid.ipynb">日本語</a>|
+|101.|<a href="tutorial/101_qcbm.ipynb">Quantum Circuit Born Machine</a>|<a href="tutorial/ja/101_qcbm.ipynb">日本語</a>|
+|102.|<a href="tutorial/102_ttn_mps.ipynb">Tree Tensor Network and Matrix Product State</a>|<a href="tutorial/ja/102_ttn_mps.ipynb">日本語</a>|
+|103.|<a href="tutorial/103_qcnn.ipynb">Quantum Convolutional Neural Network</a>|<a href="tutorial/ja/103_qcnn.ipynb">日本語</a>|
 
-3-1. FTQC Algorithms
+2. Optimization Algorithms (QAOA, etc.)
+--------------------
+
+|No.|Title|日本語|
+|:---|:---|:---|
+|200.|<a href="tutorial/200_vqe.ipynb">Variational Quantum Eigensolver VQE</a>|<a href="tutorial/ja/200_vqe.ipynb">日本語</a>|
+|201.|<a href="tutorial/201_qaoa.ipynb">Quantum Approximate Optimization Algorithm QAOA</a>|<a href="tutorial/ja/201_qaoa.ipynb">日本語</a>|
+|202.|<a href="tutorial/202_clustering.ipynb">Clustering on QAOA</a>|<a href="tutorial/ja/202_clustering.ipynb">日本語</a>|
+|203.|<a href="tutorial/203_linear_regression.ipynb">Linear Regression on QAOA</a>|<a href="tutorial/ja/203_linear_regression.ipynb">日本語</a>|
+|204.|<a href="tutorial/204_matrix_factorization.ipynb">Matrix Factorization</a>|<a href="tutorial/ja/204_matrix_factorization.ipynb">日本語</a>|
+|205.|<a href="tutorial/205_trafficflow.ipynb">Traffic Flow Optimization on QAOA</a>|<a href="tutorial/ja/205_trafficflow.ipynb">日本語</a>|
+|206.|<a href="tutorial/206_maxcut.ipynb">Maxcut, Exact Cover, Graph Coloring on QAOA</a>|<a href="tutorial/ja/206_maxcut.ipynb">日本語</a>|
+|207.|<a href="tutorial/207_setpacking.ipynb">Set Packing</a>|<a href="tutorial/ja/207_setpacking.ipynb">日本語</a>|
+|208.|<a href="tutorial/208_vertexcover.ipynb">Vertext Cover</a>|<a href="tutorial/ja/208_vertexcover.ipynb">日本語</a>|
+|209.|<a href="tutorial/209_grover_adaptive_qubo.ipynb">Grover Adaptive Search for QUBO</a>|<a href="tutorial/ja/209_grover_adaptive_qubo.ipynb">日本語</a>|
+
+3. FTQC Algorithms
 --------------------
 
 |No.|Title|日本語|
@@ -58,23 +61,31 @@ See [CHANGELOG.md](CHANGELOG.md) for breaking changes and what's new.
 |307.|<a href="tutorial/307_deutsch-jozsa.ipynb">Deutsch-Jozsa's algorithm</a>|<a href="tutorial/ja/307_deutsch-jozsa.ipynb">日本語</a>|
 |308.|<a href="tutorial/308_bernstein-vazirani.ipynb">Bernstein-Vazirani's algorithm</a>|<a href="tutorial/ja/308_bernstein-vazirani.ipynb">日本語</a>|
 |309.|<a href="tutorial/309_simon.ipynb">Simon's algorithm</a>|<a href="tutorial/ja/309_simon.ipynb">日本語</a>|
-|310.|<a href="tutorial/310_shor.ipynb">Shor's algorithm</a>|<a href="tutorial/ja/310_shor.ipynb">日本語</a>|
-|311.|<a href="tutorial/311_four.ipynb">Four Calculations and Modulus</a>|<a href="tutorial/ja/311_four.ipynb">日本語</a>|
+|310.|<a href="tutorial/310_four.ipynb">Four Calculations and Modulus</a>|<a href="tutorial/ja/310_four.ipynb">日本語</a>|
 
-3-2. Shor's Algorithm from Scratch (full implementation)
+4. Shor's Algorithm
 --------------------
 
-A companion series to 310 above, building a working implementation of Shor's algorithm from the ground up, one arithmetic building block at a time, and running it end to end.
+The theory notebook (400) plus a from-scratch series (401-405) building a working implementation of Shor's algorithm from the ground up, one arithmetic building block at a time, and running it end to end.
 
 |No.|Title|日本語|
 |:---|:---|:---|
-|320.|<a href="tutorial/320_shor_scratch_adder.ipynb">Part 1: Quantum Adder</a>|<a href="tutorial/ja/320_shor_scratch_adder.ipynb">日本語</a>|
-|321.|<a href="tutorial/321_shor_scratch_modulo_adder.ipynb">Part 2: Modulo Adder</a>|<a href="tutorial/ja/321_shor_scratch_modulo_adder.ipynb">日本語</a>|
-|322.|<a href="tutorial/322_shor_scratch_controlled_multiplier.ipynb">Part 3: Controlled Modular Multiplication</a>|<a href="tutorial/ja/322_shor_scratch_controlled_multiplier.ipynb">日本語</a>|
-|323.|<a href="tutorial/323_shor_scratch_modular_exponentiation.ipynb">Part 4: Modular Exponentiation</a>|<a href="tutorial/ja/323_shor_scratch_modular_exponentiation.ipynb">日本語</a>|
-|324.|<a href="tutorial/324_shor_full_algorithm.ipynb">Part 5: The Full Algorithm (Phase Estimation, Inverse QFT, Continued Fractions)</a>|<a href="tutorial/ja/324_shor_full_algorithm.ipynb">日本語</a>|
+|400.|<a href="tutorial/400_shor.ipynb">Shor's algorithm</a>|<a href="tutorial/ja/400_shor.ipynb">日本語</a>|
+|401.|<a href="tutorial/401_shor_scratch_adder.ipynb">From Scratch Part 1: Quantum Adder</a>|<a href="tutorial/ja/401_shor_scratch_adder.ipynb">日本語</a>|
+|402.|<a href="tutorial/402_shor_scratch_modulo_adder.ipynb">From Scratch Part 2: Modulo Adder</a>|<a href="tutorial/ja/402_shor_scratch_modulo_adder.ipynb">日本語</a>|
+|403.|<a href="tutorial/403_shor_scratch_controlled_multiplier.ipynb">From Scratch Part 3: Controlled Modular Multiplication</a>|<a href="tutorial/ja/403_shor_scratch_controlled_multiplier.ipynb">日本語</a>|
+|404.|<a href="tutorial/404_shor_scratch_modular_exponentiation.ipynb">From Scratch Part 4: Modular Exponentiation</a>|<a href="tutorial/ja/404_shor_scratch_modular_exponentiation.ipynb">日本語</a>|
+|405.|<a href="tutorial/405_shor_full_algorithm.ipynb">From Scratch Part 5: The Full Algorithm (Phase Estimation, Inverse QFT, Continued Fractions)</a>|<a href="tutorial/ja/405_shor_full_algorithm.ipynb">日本語</a>|
+
+5. Quantum Chemistry
+--------------------
+
+|No.|Title|日本語|
+|:---|:---|:---|
+|500.|<a href="tutorial/500_chemistry.ipynb">Quantum Chemistry and VQE</a>|<a href="tutorial/ja/500_chemistry.ipynb">日本語</a>|
+|501.|<a href="tutorial/501_homemadeansatz.ipynb">VQE with homemade ansatz</a>|<a href="tutorial/ja/501_homemadeansatz.ipynb">日本語</a>|
+|502.|<a href="tutorial/502_excitedstate.ipynb">Excited state calculation</a>|<a href="tutorial/ja/502_excitedstate.ipynb">日本語</a>|
 
 Licence
 ----------
 <a href="https://github.com/Blueqat/blueqat-tutorials/blob/main/LICENSE">Apache Licence 2.0</a>
-

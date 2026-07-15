@@ -10,7 +10,7 @@ English version is available at [README.md](README.md).
 
 破壊的変更や新着情報は [CHANGELOG.ja.md](CHANGELOG.ja.md) をご覧ください。
 
-0-1. 量子コンピュータの基本操作
+0. 量子コンピュータの基本操作
 --------------------
 
 |No.|タイトル|
@@ -20,30 +20,33 @@ English version is available at [README.md](README.md).
 |003.|<a href="tutorial/ja/003_cloud.ipynb">クラウドへの接続</a>|
 |004.|<a href="tutorial/ja/004_backend.ipynb">バックエンド</a>|
 
-1-1. 変分アルゴリズムと機械学習アルゴリズム
+1. 機械学習アルゴリズム
 --------------------
 
 |No.|タイトル|
 |:---|:---|
-|100.|<a href="tutorial/ja/100_vqe.ipynb">変分量子固有値ソルバー VQE</a>|
-|101.|<a href="tutorial/ja/101_qaoa.ipynb">量子近似最適化アルゴリズム QAOA</a>|
-|102.|<a href="tutorial/ja/102_quantum_classical_hybrid.ipynb">量子・古典ハイブリッド機械学習</a>|
-|103.|<a href="tutorial/ja/103_qcbm.ipynb">量子回路ボルンマシン</a>|
-|104.|<a href="tutorial/ja/104_ttn_mps.ipynb">木構造テンソルネットワークと行列積状態</a>|
-|105.|<a href="tutorial/ja/105_clustering.ipynb">QAOAによるクラスタリング</a>|
-|106.|<a href="tutorial/ja/106_linear_regression.ipynb">QAOAによる線形回帰</a>|
-|107.|<a href="tutorial/ja/107_matrix_factorization.ipynb">行列分解</a>|
-|108.|<a href="tutorial/ja/108_trafficflow.ipynb">QAOAによる交通流最適化</a>|
-|109.|<a href="tutorial/ja/109_maxcut.ipynb">QAOAによるMaxcut、Exact Cover、グラフ彩色</a>|
-|110.|<a href="tutorial/ja/110_qcnn.ipynb">量子畳み込みニューラルネットワーク</a>|
-|313.|<a href="tutorial/ja/313_setpacking.ipynb">集合パッキング問題</a>|
-|315.|<a href="tutorial/ja/315_vertexcover.ipynb">頂点被覆問題</a>|
-|316.|<a href="tutorial/ja/316_grover_adaptive_qubo.ipynb">QUBOに対するグローバー適応探索</a>|
-|400.|<a href="tutorial/ja/400_chemistry.ipynb">量子化学とVQE</a>|
-|401.|<a href="tutorial/ja/401_homemadeansatz.ipynb">自作Ansatzを用いたVQE</a>|
-|402.|<a href="tutorial/ja/402_excitedstate.ipynb">励起状態の計算</a>|
+|100.|<a href="tutorial/ja/100_quantum_classical_hybrid.ipynb">量子・古典ハイブリッド機械学習</a>|
+|101.|<a href="tutorial/ja/101_qcbm.ipynb">量子回路ボルンマシン</a>|
+|102.|<a href="tutorial/ja/102_ttn_mps.ipynb">木構造テンソルネットワークと行列積状態</a>|
+|103.|<a href="tutorial/ja/103_qcnn.ipynb">量子畳み込みニューラルネットワーク</a>|
 
-3-1. FTQCアルゴリズム
+2. 最適化アルゴリズム(QAOAなど)
+--------------------
+
+|No.|タイトル|
+|:---|:---|
+|200.|<a href="tutorial/ja/200_vqe.ipynb">変分量子固有値ソルバー VQE</a>|
+|201.|<a href="tutorial/ja/201_qaoa.ipynb">量子近似最適化アルゴリズム QAOA</a>|
+|202.|<a href="tutorial/ja/202_clustering.ipynb">QAOAによるクラスタリング</a>|
+|203.|<a href="tutorial/ja/203_linear_regression.ipynb">QAOAによる線形回帰</a>|
+|204.|<a href="tutorial/ja/204_matrix_factorization.ipynb">行列分解</a>|
+|205.|<a href="tutorial/ja/205_trafficflow.ipynb">QAOAによる交通流最適化</a>|
+|206.|<a href="tutorial/ja/206_maxcut.ipynb">QAOAによるMaxcut、Exact Cover、グラフ彩色</a>|
+|207.|<a href="tutorial/ja/207_setpacking.ipynb">集合パッキング問題</a>|
+|208.|<a href="tutorial/ja/208_vertexcover.ipynb">頂点被覆問題</a>|
+|209.|<a href="tutorial/ja/209_grover_adaptive_qubo.ipynb">QUBOに対するグローバー適応探索</a>|
+
+3. FTQCアルゴリズム
 --------------------
 
 |No.|タイトル|
@@ -58,21 +61,30 @@ English version is available at [README.md](README.md).
 |307.|<a href="tutorial/ja/307_deutsch-jozsa.ipynb">ドイチ・ジョザのアルゴリズム</a>|
 |308.|<a href="tutorial/ja/308_bernstein-vazirani.ipynb">バーンスタイン・ヴァジラニのアルゴリズム</a>|
 |309.|<a href="tutorial/ja/309_simon.ipynb">サイモンのアルゴリズム</a>|
-|310.|<a href="tutorial/ja/310_shor.ipynb">ショアのアルゴリズム</a>|
-|311.|<a href="tutorial/ja/311_four.ipynb">四則演算と剰余</a>|
+|310.|<a href="tutorial/ja/310_four.ipynb">四則演算と剰余</a>|
 
-3-2. ゼロから作るショアのアルゴリズム(本格実装)
+4. ショアのアルゴリズム
 --------------------
 
-上記310の関連シリーズです。ショアのアルゴリズムの実際に動く実装を、算術演算の部品から少しずつ積み上げ、最後まで実行します。
+理論解説(400)と、ショアのアルゴリズムの実際に動く実装を算術演算の部品から少しずつ積み上げ最後まで実行する、ゼロから作るシリーズ(401〜405)です。
 
 |No.|タイトル|
 |:---|:---|
-|320.|<a href="tutorial/ja/320_shor_scratch_adder.ipynb">第1回: 量子加算器</a>|
-|321.|<a href="tutorial/ja/321_shor_scratch_modulo_adder.ipynb">第2回: 剰余加算器</a>|
-|322.|<a href="tutorial/ja/322_shor_scratch_controlled_multiplier.ipynb">第3回: 制御剰余乗算</a>|
-|323.|<a href="tutorial/ja/323_shor_scratch_modular_exponentiation.ipynb">第4回: べき剰余</a>|
-|324.|<a href="tutorial/ja/324_shor_full_algorithm.ipynb">第5回: 完全なアルゴリズム(位相推定・逆QFT・連分数展開)</a>|
+|400.|<a href="tutorial/ja/400_shor.ipynb">ショアのアルゴリズム</a>|
+|401.|<a href="tutorial/ja/401_shor_scratch_adder.ipynb">ゼロから作る 第1回: 量子加算器</a>|
+|402.|<a href="tutorial/ja/402_shor_scratch_modulo_adder.ipynb">ゼロから作る 第2回: 剰余加算器</a>|
+|403.|<a href="tutorial/ja/403_shor_scratch_controlled_multiplier.ipynb">ゼロから作る 第3回: 制御剰余乗算</a>|
+|404.|<a href="tutorial/ja/404_shor_scratch_modular_exponentiation.ipynb">ゼロから作る 第4回: べき剰余</a>|
+|405.|<a href="tutorial/ja/405_shor_full_algorithm.ipynb">ゼロから作る 第5回: 完全なアルゴリズム(位相推定・逆QFT・連分数展開)</a>|
+
+5. 量子化学
+--------------------
+
+|No.|タイトル|
+|:---|:---|
+|500.|<a href="tutorial/ja/500_chemistry.ipynb">量子化学とVQE</a>|
+|501.|<a href="tutorial/ja/501_homemadeansatz.ipynb">自作Ansatzを用いたVQE</a>|
+|502.|<a href="tutorial/ja/502_excitedstate.ipynb">励起状態の計算</a>|
 
 Licence
 ----------
